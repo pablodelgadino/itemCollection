@@ -1,0 +1,30 @@
+.cakes{
+display: inline-flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+margin: 1rem;
+background-image:url(../../images/Sprinkle.svg) ;
+text-decoration: none;
+}
+
+.cakes h1{
+    text-align: center;
+    font-size: 2rem;
+}
+.cakes h2{
+    text-align: center;
+    font-size: 1rem;
+}
+
+
+@media only screen and (max-width: 600px){
+    .cakes h1{
+        text-align: center;
+        font-size: 0.5em;
+    }
+    .cakes h2{
+        text-align: center;
+        font-size: 0.5rem;
+    }
+}
